@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Unbounded', cursive;
+    margin: 0;
+    padding: 0;
+    border: red 1px solid;
+}
+
+.home {
+    background-image: url("../images/background.jpg");
+    background-blend-mode: multiply;
+    display: grid;
+    background-size: cover;
+    min-height: 100vh;
+    place-items: center;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.home-inf {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    text-decoration: solid;
+    color: rgb(236, 236, 236);
+    font-size: 40px;
+    text-shadow: 2px 4px 3px rgb(0 0 0 / 30%);
+
+}
+
+.face img {
+    border-radius: 50%;
+    width: 25em;
+    box-shadow: black 0 2px 7px;
+}
+
+.navigationbar {
+    display: flex;
+    z-index: 10;
+    padding: 0, 5em;
+    width: 100%;
+    position: fixed;
+    font-size: 1.5em;
+}
+
+.navmenu {
+    display: flex;
+    gap: 1.5em;
+    font-size: 18px;
+    color: rgb(236, 236, 236);
+    position: relative;
+    float: right;
+    top: 0;
+    right: 20px;
+    bottom: 0;
+    position: absolute;
+    text-shadow: 2px 4px 3px rgb(0 0 0 / 30%);
+}
+
+.home-socials {
+    gap: 1em;
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon {
+    font-size: 100px;
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
