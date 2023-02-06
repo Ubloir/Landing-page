@@ -32,6 +32,10 @@ body #root {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+.odin {
+    background-image: url("../images/recipes.PNG");
+}
+
 
 .about {
     display: flex;
@@ -64,6 +68,28 @@ body #root {
     width: 55vh;
 }
 
+.card-information1 {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 1.5em;
+}
+
+
+.project {
+    background: red;
+    margin: auto;
+    width: 13em;
+    height: 13em;
+    border: rgb(73, 73, 134) 4px solid;
+}
+
+.project img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 .card-desc {
     color: white;
     font-size: 1.25em;
@@ -78,7 +104,7 @@ body #root {
     gap: 1em;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 10%;
+    margin-bottom: 50%;
 }
 
 h1 {
