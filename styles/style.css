@@ -6,6 +6,10 @@
     /*border: red 1px solid;*/
 }
 
+body {
+    margin: 0 auto;
+}
+
 .home {
     background-image: url("../images/background1.jpg");
     display: grid;
@@ -19,7 +23,7 @@
     background-image: url("../images/background2.jpg");
     display: grid;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 95em;
     place-items: center;
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -278,5 +282,22 @@ a:link {
 
     html {
         font-size: 75%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .card-information {
+        width: 55vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-information {
+        width: 50vh;
+    }
+
+    .card-information {
+        width: 80%;
     }
 }
